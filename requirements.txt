@@ -1,0 +1,4 @@
+filecmp
+bs4
+requests
+pathlib
