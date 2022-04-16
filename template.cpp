@@ -118,10 +118,10 @@ void _print(T t, V... v)
 // /* a = read() for reading the integer and print(a) to print that integer.  */
 
 #define MX 10e9
-#define MAX 100000
+#define MAX 1000000
 
 int main()
 {
-    cout << "Hello" << endl;
+
     return 0;
 }

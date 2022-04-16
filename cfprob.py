@@ -1,4 +1,3 @@
-
 import bs4
 import requests
 import sys
@@ -6,7 +5,7 @@ import os
 from pathlib import Path
 
 
-myCPDirectory = "E:\\Competitive Programming\\sol.cpp\\"
+myCPDirectory = "E:\\SOLCPP\\"
 
 
 def split_limit(soup):
@@ -195,7 +194,8 @@ os.system("echo Making it code ready")
 
 tempecho = f"cat template.cpp >> {folderName}/sol.cpp"
 os.system(tempecho)
-
+tempecho = f"cat sol.py >> {folderName}/sol.py"
+os.system(tempecho)
 
 # Run py
 runpy = open(runpyPath, "r")
